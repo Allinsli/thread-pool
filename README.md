@@ -104,8 +104,10 @@
 
 [ThreadFactory] Creating new thread: MyPool-worker-1
 [ThreadFactory] Creating new thread: MyPool-worker-2
-[Pool] Task accepted into queue #0: java.util.concurrent.FutureTask@312b1dae[Not completed, task = org.example.threadpool.Main$$Lambda$17/0x0000000800c02888@27973e9b]
-[Worker] MyPool-worker-1 executes java.util.concurrent.FutureTask@312b1dae[Not completed, task = org.example.threadpool.Main$$Lambda$17/0x0000000800c02888@27973e9b]
+[Pool] Task accepted into queue #0: java.util.concurrent.FutureTask@312b1dae
+[Not completed, task = org.example.threadpool.Main$$Lambda$17/0x0000000800c02888@27973e9b]
+[Worker] MyPool-worker-1 executes java.util.concurrent.FutureTask@312b1dae
+[Not completed, task = org.example.threadpool.Main$$Lambda$17/0x0000000800c02888@27973e9b]
 [Main] Callable completed
 [Pool] Task accepted into queue #1: Task-1
 [Worker] MyPool-worker-2 executes Task-1
