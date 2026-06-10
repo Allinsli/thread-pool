@@ -106,13 +106,7 @@
 
 [ThreadFactory] Creating new thread: MyPool-worker-2
 
-[Pool] Task accepted into queue #0: java.util.concurrent.FutureTask@312b1dae
-
-[Not completed, task = org.example.threadpool.Main$$Lambda$17/0x0000000800c02888@27973e9b]
-
-[Worker] MyPool-worker-1 executes java.util.concurrent.FutureTask@312b1dae
-
-[Not completed, task = org.example.threadpool.Main$$Lambda$17/0x0000000800c02888@27973e9b]
+...
 
 [Main] Callable completed
 
@@ -124,89 +118,7 @@
 
 [Worker] MyPool-worker-1 executes Task-2
 
-[Pool] Task accepted into queue #1: Task-3
-
-[Pool] Task accepted into queue #0: Task-4
-
-[ThreadFactory] Creating new thread: MyPool-worker-3
-
-[Pool] Task accepted into queue #2: Task-5
-
-[ThreadFactory] Creating new thread: MyPool-worker-4
-
-[Worker] MyPool-worker-3 executes Task-5
-
-[Pool] Task accepted into queue #2: Task-6
-
-[Pool] Task accepted into queue #3: Task-7
-
-[Pool] Task accepted into queue #0: Task-8
-
-[Worker] MyPool-worker-4 executes Task-7
-
-[Pool] Task accepted into queue #1: Task-9
-
-[Pool] Task accepted into queue #2: Task-10
-
-[Pool] Task accepted into queue #3: Task-11
-
-[Pool] Task accepted into queue #0: Task-12
-
-[Pool] Task accepted into queue #1: Task-13
-
-[Pool] Task accepted into queue #2: Task-14
-
-[Pool] Task accepted into queue #3: Task-15
-
-[Pool] Task accepted into queue #0: Task-16
-
-[Pool] Task accepted into queue #1: Task-17
-
-[Pool] Task accepted into queue #2: Task-18
-
-[Pool] Task accepted into queue #3: Task-19
-
-[Pool] Task accepted into queue #0: Task-20
-
-[Pool] Task accepted into queue #1: Task-21
-
-[Pool] Task accepted into queue #2: Task-22
-
-[Pool] Task accepted into queue #3: Task-23
-
-[Task] Task-7 started
-
-[Task] Task-5 started
-
-[Rejected] Task Task-24 was rejected due to overload!
-
-[Task] Task-2 started
-
-[Main] Task rejected: Task-24
-
-[Rejected] Task Task-25 was rejected due to overload!
-
-[Main] Task rejected: Task-25
-
-[Rejected] Task Task-26 was rejected due to overload!
-
-[Main] Task rejected: Task-26
-
-[Pool] Task accepted into queue #3: Task-27
-
-[Task] Task-1 started
-
-[Rejected] Task Task-28 was rejected due to overload!
-
-[Main] Task rejected: Task-28
-
-[Rejected] Task Task-29 was rejected due to overload!
-
-[Main] Task rejected: Task-29
-
-[Rejected] Task Task-30 was rejected due to overload!
-
-[Main] Task rejected: Task-30
+...
 
 ## Автор
 
